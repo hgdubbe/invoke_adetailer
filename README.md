@@ -25,6 +25,11 @@ InvokeAI/
 
 Install runtime dependencies into InvokeAI's Python environment:
 
+Make sure you have pip installed in your venv
+If it is missing, read [pip installation](https://pip.pypa.io/en/stable/installation/). There is a link to an install-Script.
+Copy the content of the script into a local file, open your venv and run the installer script.
+
+When pip is available:
 ```bash
 pip install -r requirements.txt
 ```
